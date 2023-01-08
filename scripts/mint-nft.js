@@ -23,7 +23,7 @@ async function mintNFT(tokenURI) {
 
     nonce: nonce,
 
-    gas: 500000,
+    gas: 1000000,
 
     data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI(),
 
